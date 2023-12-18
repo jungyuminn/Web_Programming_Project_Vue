@@ -1,5 +1,0 @@
-export { default as Header } from './header/HomeHeader.vue'
-export { default as Menu } from './menu/Menu.vue'
-export { default as SubTitle } from './sub-title/SubTitle.vue'
-// export { default as Contents } from './contents/Contents.vue'
-export { default as Footer } from './footer/Footer.vue'
