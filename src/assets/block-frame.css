@@ -1,0 +1,18 @@
+.block-wrapper {
+  padding: 15px;
+  border-bottom: 1px solid #dbdbdb;
+
+  & > h4 {
+    font-size: 20px;
+    color: #2f7fa6;
+    padding-bottom: 5px;
+  }
+
+  & > p {
+    border-bottom: 1px dashed #dbdbdb;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    color: #878787;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,25 @@
+@import './base.css';
+
+body {
+  background: url('https://github.com/YuMinGod/react/blob/main/public/banner.png?raw=true') repeat-x
+    center top;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+
+  @media only screen and (max-width: 1220px) {
+    width: 100%;
+  }
+}
+
+.image-style {
+  overflow: hidden;
+
+  & img {
+    width: 100%;
+    display: block;
+  }
+}
